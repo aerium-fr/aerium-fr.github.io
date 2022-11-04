@@ -1,15 +1,61 @@
-@import url('https://fonts.googleapis.com/css2?family=Yantramanav:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter&display=swap');
 
-body {
+* {
     background-color: black;
-    color: blue;
-    font-family: 'Yantramanav', sans-serif;
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+    color: green;
+    font-family: 'Inter', sans-serif;
+}
+
+.nav {
+    height: 30vh;
+    width: 100%;
+    background-size: cover;
+    background-position: center;
+}
+
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 40px;
+    padding-left: 10%;
+    padding-right: 10%;
+}
+
+.logo {
+    color: whitesmoke;
+    font-size: 28px;
+}
+
+span {
+    color: green;
+}
+
+nav ul li {
+    list-style-type: none;
+    display: inline-block;
+    padding: 10px 20px;
+}
+
+nav ul li a {
+    color: #0cb30c;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+nav ul li a:hover {
+    color: #1bcf1b;
+    transition: 2000ms;
+}
+
+button {
+    border: none;
+    background-color: #1bcf1b;
 }
 
 h1 {
     text-align: center;
-}
-
-h1 a {
-    text-decoration: none;
 }
